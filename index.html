@@ -276,7 +276,7 @@
     function sendOtpFunction(channel){
         var toNumber = document.getElementById("twilio-to-phone").value;
         var encode_toNumber = encodeURIComponent (toNumber);
-        var urlSend = "https://twilio-prevent-fraud-8318.twil.io/send_otp?To=" + encode_toNumber + "&Channel=" + channel;
+        var urlSend = "https://CHANGE_ME.twil.io/send_otp?To=" + encode_toNumber + "&Channel=" + channel;
         window.open(urlSend, '_blank');
         //window.alert(urlSend, '_blank');
         //window.location.href=urlSend;
@@ -287,7 +287,7 @@
         var toNumber = document.getElementById("twilio-to-phone").value;
         var encode_toNumber = encodeURIComponent (toNumber);
         var otpCode = document.getElementById("twilio-otp").value;
-        var urlSend = "https://twilio-prevent-fraud-8318.twil.io/verify_otp?To=" + encode_toNumber + "&Code=" + otpCode;
+        var urlSend = "https://CHANGE_ME.twil.io/verify_otp?To=" + encode_toNumber + "&Code=" + otpCode;
         window.open(urlSend, '_blank');
         //window.location.href=urlSend;
     }
@@ -297,7 +297,7 @@
         var toNumber = document.getElementById("twilio-to-phone").value;
         var encode_toNumber = encodeURIComponent (toNumber);
         var otpCode = document.getElementById("twilio-otp").value;
-        var urlSend = "https://twilio-prevent-fraud-8318.twil.io/verify_sna?To=" + encode_toNumber;
+        var urlSend = "https://CHANGE_ME.twil.io/verify_sna?To=" + encode_toNumber;
         window.open(urlSend, '_blank');
         //window.location.href=urlSend;
     }
@@ -307,7 +307,7 @@
         var toNumber = document.getElementById("twilio-lookup-phone").value;
         var encode_toNumber = encodeURIComponent (toNumber);
         var otpCode = document.getElementById("twilio-otp").value;
-        var urlSend = "https://twilio-prevent-fraud-8318.twil.io/lookup_type?To=" + encode_toNumber + "&Type=" + lookupType;
+        var urlSend = "https://CHANGE_ME.twil.io/lookup_type?To=" + encode_toNumber + "&Type=" + lookupType;
         window.open(urlSend, '_blank');
         //window.location.href=urlSend;
     }
@@ -317,7 +317,7 @@
         var toNumber = document.getElementById("twilio-safelist-phone").value;
         var encode_toNumber = encodeURIComponent (toNumber);
         var otpCode = document.getElementById("twilio-otp").value;
-        var urlSend = "https://twilio-prevent-fraud-8318.twil.io/safe_list?To=" + encode_toNumber + "&Action=" + safelistAction;
+        var urlSend = "https://CHANGE_ME.twil.io/safe_list?To=" + encode_toNumber + "&Action=" + safelistAction;
         window.open(urlSend, '_blank');
         //window.location.href=urlSend;
     }
