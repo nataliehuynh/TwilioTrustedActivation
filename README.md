@@ -18,3 +18,10 @@ Twilio Trusted Activation with Verify and Lookup API. This project will allow yo
 
 5. Change urlSend (5 instance of it in index.html) with your unique project URL, will be "https://projectName-XXXX.twil.io"
 <img width="200" alt="Screen Shot 4" src="https://user-images.githubusercontent.com/587503/219131651-78b5ed2d-7e8a-4b14-9508-c4de3883fc2f.png">
+
+6. Click on Deploy All from image above
+
+7. Open Browser and go to "https://projectName-XXXX.twil.io/index.html"
+<img width="1406" alt="Screen Shot 4" src="https://user-images.githubusercontent.com/587503/219133969-07a03440-309a-4524-8d48-c9cb7b951888.png">
+
+8. Project Loaded, Have Fun!
