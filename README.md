@@ -10,10 +10,24 @@ SMS pumping fraud continues to be a problem for all businesses that allow their 
 
 [Twilio Verify](https://www.twilio.com/docs/verify/authentication-channels): Send verifications to your users channel of choice. Now with Silent Network Authentication your users no longer need to input an OTP to access their account.
 
+## Solution Diagram
+
+<img width="1278" alt="Screen Shot 2023-02-28 at 10 43 09 AM" src="https://user-images.githubusercontent.com/587503/221948976-de1da325-fa2f-4b61-a05d-284c25c66d40.png">
+
+## Business Value
+* Reduce fraud to your business
+* Secure customers account with 2FA
+* Personalize engagement with your customers
+
+## Use Case and Industry
+* All B2C/B2B with account access
+* Promotional Signups
+
 ## Prerequisite
 1. [Twilio Account](https://console.twilio.com/)
 2. [Twilio Serverless](https://www.twilio.com/en-us/serverless)
 3. [Twilio Verify](https://www.twilio.com/verify)
+4. [Twilio Lookup](https://www.twilio.com/en-us/trusted-activation/lookup)
 ## Getting Started
 1. Create a [Twilio Service](https://console.twilio.com/us1/develop/functions/services)
 <img width="1406" alt="Screen Shot 1" src="https://user-images.githubusercontent.com/587503/219128424-6192a1b7-c18a-49c7-8969-dfc63604f832.png">
