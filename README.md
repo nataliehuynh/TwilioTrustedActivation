@@ -24,10 +24,11 @@ SMS pumping fraud continues to be a problem for all businesses that allow their 
 * Promotional Signups
 
 ## Prerequisite
-1. [Twilio Account](https://console.twilio.com/)
-2. [Twilio Serverless](https://www.twilio.com/en-us/serverless)
-3. [Twilio Verify](https://www.twilio.com/verify)
-4. [Twilio Lookup](https://www.twilio.com/en-us/trusted-activation/lookup)
+* [Twilio Account](https://console.twilio.com/)
+* [Twilio Serverless](https://www.twilio.com/en-us/serverless)
+* [Twilio Verify](https://www.twilio.com/verify)
+*  [Twilio Lookup](https://www.twilio.com/en-us/trusted-activation/lookup)
+
 ## Getting Started
 1. Create a [Twilio Service](https://console.twilio.com/us1/develop/functions/services)
 <img width="1406" alt="Screen Shot 1" src="https://user-images.githubusercontent.com/587503/219128424-6192a1b7-c18a-49c7-8969-dfc63604f832.png">
