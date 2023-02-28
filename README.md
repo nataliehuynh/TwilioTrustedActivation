@@ -1,5 +1,14 @@
-# TwilioTrustedActivation
-Twilio Trusted Activation with Verify and Lookup API. This project will allow you test Twilio Verify and Lookup API with your account.
+# Twilio Trusted Activation
+Welcome to Twilio Trusted Activation with Verify and Lookup API. This project will allow you test Twilio Verify and Lookup API with your Twilio Account. This will help you reduce fraud to your business and increase engagement.
+
+## Solution Description
+SMS pumping fraud continues to be a problem for all businesses that allow their users to request for an SMS. Trusted Activation gives businesses the ability to reduce fraud to their business. By leveraging Twilio Lookup and Twilio Verify we can provide our customers and businesses a Trusted Activation.
+
+[Twilio Lookup](https://www.twilio.com/docs/lookup/v2-api): 3 types of lookup API that will allow you to check if a number is formatted correctly before attempting to send a message. You can also check line type intelligence as well as caller name to personalize the engagement.
+
+[Twilio Safe List](https://www.twilio.com/docs/verify/api/safe-list): This API allows you to control where and who you want to send verifications to and reduce fraud to your business. You have the capability to restrict a Geo and add a specific number to a safe list so those numbers are not blocked. You can also remove them from the list at any time.
+
+[Twilio Verify](https://www.twilio.com/docs/verify/authentication-channels): Send verifications to your users channel of choice. Now with Silent Network Authentication your users no longer need to input an OTP to access their account.
 
 ## Prerequisite
 1. [Twilio Account](https://console.twilio.com/)
