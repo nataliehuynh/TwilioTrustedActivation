@@ -55,3 +55,13 @@ SMS pumping fraud continues to be a problem for all businesses that allow their 
 <img width="1406" alt="Screen Shot 4" src="https://user-images.githubusercontent.com/587503/219133969-07a03440-309a-4524-8d48-c9cb7b951888.png">
 
 10. Project Loaded, Have Fun!
+
+## Demo Script
+1. Input phone number and try the 3 different lookup type and see the info it displays
+2. Go to [Verify Geo Permissions](https://console.twilio.com/us1/develop/verify/settings/geopermissions) and disable the SMS channel for United States(+1)
+3. Input a phone number and check if it is on the safe list
+4. Try to send a Verify via Send as SMS and see that you cannot send to the number
+5. Add your number to the Safe List and try again, you can even try to Verify the code
+6. Go to [SNA Live Test](https://console.twilio.com/us1/develop/verify/settings/sna) and register your phone number
+7. From your mobile phone go to your project "https://projectName-XXXX.twil.io/index.html" and click on Send as SNA
+8. Make sure you are not connected to WiFi and open the URL returned, then see that you are Verified by clicking on Verify SNA
